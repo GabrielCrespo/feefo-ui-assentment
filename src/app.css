@@ -1,0 +1,22 @@
+.account-overview {
+  display: flex;
+  justify-content: center;
+  /* Centraliza os elementos horizontalmente */
+}
+
+.overview-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centraliza os elementos horizontalmente */
+  margin-left: 100px;
+  /* Espaço entre o Account Overview e os componentes de Support */
+}
+
+.account-overview,
+.bottom-container,
+.top-half,
+.bottom-half>div {
+  background-color: #f2f2f2;
+  /* Cinza claro */
+}

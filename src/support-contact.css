@@ -1,0 +1,25 @@
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-details p {
+    margin-right: 20px;
+}
+
+.support-icon {
+    width: 35px;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.support-info {
+    display: flex;
+    align-items: center;
+}

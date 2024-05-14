@@ -1,0 +1,73 @@
+/* Estilo para centralizar o conteúdo */
+.centered-content {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para dividir a parte inferior ao meio verticalmente */
+.bottom-container {
+    margin-top: 1px;
+    /* Espaço entre os componentes */
+}
+
+.vertical-split {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+/* Estilo para a parte superior ocupar toda a largura */
+.top-half {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o ícone de upload */
+.header img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Estilo para dividir a parte inferior em duas na vertical */
+.bottom-half {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* Centraliza na vertical */
+}
+
+/* Estilo para cada parte da parte inferior */
+.bottom-half>div {
+    flex: 1;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 1px;
+    text-align: left;
+    /* Alinha o texto à esquerda */
+    position: relative;
+    /* Permite posicionar os elementos internos relativamente */
+}
+
+/* Estilo para o número em porcentagem */
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: green;
+    size: 50px;
+}
+
+/* Estilo para o texto abaixo do número */
+.text {
+    margin-top: 40px;
+}
